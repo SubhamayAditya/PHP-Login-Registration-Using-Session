@@ -9,36 +9,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <style>
-        body {
-            background: linear-gradient(135deg, #74ebd5 0%, #ACB6E5 100%);
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .card {
-            border: none;
-            border-radius: 1rem;
-            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-        }
-
-        .form-control {
-            border-radius: 0.5rem;
-        }
-
-        .btn-success {
-            width: 100%;
-            border-radius: 0.5rem;
-            padding: 0.75rem;
-        }
-
-        .small-text {
-            text-align: center;
-            margin-top: 1rem;
-        }
-    </style>
+    <link rel="stylesheet" href="assets/register.css">
 </head>
 
 <?php

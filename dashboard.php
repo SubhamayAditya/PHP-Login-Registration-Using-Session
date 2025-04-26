@@ -9,43 +9,8 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <style>
-        body {
-            background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-        }
 
-        .dashboard-card {
-            max-width: 400px;
-            margin: 60px auto;
-            border: none;
-            border-radius: 1rem;
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-            overflow: hidden;
-        }
-
-        .card-img-top {
-            height: 300px;
-            object-fit: cover;
-        }
-
-        .navbar {
-            background: #ffffff;
-            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
-        }
-
-        .navbar a {
-            text-decoration: none;
-            color: #333;
-        }
-
-        .logout-btn {
-            color: #dc3545;
-            font-weight: bold;
-        }
-    </style>
+    <link rel="stylesheet" href="assets/dashboard.css">
 
 </head>
 
